@@ -4,7 +4,7 @@
 ## Introduction
 This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated.
 
-The data is from my Excel course, which provides a foundation in analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
+The data is from my Excel course, which provides a foundation for analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
 
   ### Dashboard
  My final dashboard is in 1_Salary_Dashboard.xlsx.
@@ -12,17 +12,17 @@ The data is from my Excel course, which provides a foundation in analyzing data 
   ### Excel Skills Used
 The following Excel skills were utilized for analysis:
 
-📉 Charts
-🧮 Formulas and Functions
-❎ Data Validation
+* 📉 Charts
+* 🧮 Formulas and Functions
+* ❎ Data Validation
 
   ### Data Jobs Dataset
 The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel. It includes detailed information on:
 
-👨‍💼 Job titles
-💰 Salaries
-📍 Locations
-🛠️ Skills
+* 👨‍💼 Job titles
+* 💰 Salaries
+* 📍 Locations
+* 🛠️ Skills
 
 ## Dashboard Build
  ### Charts
@@ -38,11 +38,11 @@ The dataset used for this project contains real-world data science job informati
 🗺️ Country Median Salaries - Map Chart
 ![1_Salary_Dashboard_Country_Map](https://github.com/user-attachments/assets/c59c5f82-bca4-4aff-8a7f-6963620d712d)
 
-*🛠️ Excel Features: Utilized Excel's map chart feature to plot median salaries globally.
-*🎨 Design Choice: Color-coded map to visually differentiate salary levels across regions.
-*📊 Data Representation: Plotted median salary for each country with available data.
-*👁️ Visual Enhancement: Improved readability and immediate understanding of geographic salary trends.
-*💡 Insights Gained: Enables quick grasp of global salary disparities and highlights high/low salary regions.
+* 🛠️ Excel Features: Utilized Excel's map chart feature to plot median salaries globally.
+* 🎨 Design Choice: Color-coded map to visually differentiate salary levels across regions.
+* 📊 Data Representation: Plotted median salary for each country with available data.
+* 👁️ Visual Enhancement: Improved readability and immediate understanding of geographic salary trends.
+* 💡 Insights Gained: Enables quick grasp of global salary disparities and highlights high/low salary regions.
 
 ## Formulas & Functions
 
