@@ -47,3 +47,54 @@ The dataset used for this project contains real-world data science job informati
 ## Formulas & Functions
 
 Median Salary by Job Titles
+<code>
+=MEDIAN(
+IF(
+    (jobs[job_title_short]=A2)*
+    (jobs[job_country]=country)*
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+    (jobs[salary_year_avg]<>0),
+    jobs[salary_year_avg]
+)
+)
+</code>
+
+* 🔍 Multi-Criteria Filtering: Checks job title, country, schedule type, and excludes blank salaries.
+* 📊 Array Formula: Utilizes <code>MEDIAN()</code> function with nested <code>IF()</code> statement to analyze an array.
+* 🎯 Tailored Insights: Provides specific salary information for job titles, regions, and schedule types.
+* 🔢 Formula Purpose: This formula populates the table below, returning the median salary based on job title, country, and type specified.
+
+Background Table
+![1_Salary_Dashboard_Screenshot1](https://github.com/user-attachments/assets/44c60401-36d3-48c6-bfbe-99d6c859d07b)
+Dashboard Implementation
+![1_Salary_Dashboard_Data_Validation](https://github.com/user-attachments/assets/b9c639f6-f47e-4486-9026-013768006a9e)
+
+### Count of Job Schedule Type
+<code>=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))</code>
+* 🔍 Unique List Generation: This Excel formula below employs the <code>FILTER()</code> function to exclude entries containing "and" or commas, and omit zero values.
+
+* 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
+
+Background Table:
+![1_Salary_Dashboard_Screenshot2](https://github.com/user-attachments/assets/0075345b-6032-466d-b483-08d47ec5cb71)
+
+DashBoard Implementation:
+![1_Salary_Dashboard_Type](https://github.com/user-attachments/assets/b257dcf1-5df5-4475-9ae5-43ffbe25c840)
+
+## Data Validation
+
+Filtered List 
+  * 🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+    * 🎯 User input is restricted to predefined, validated schedule types
+    * 🚫 Incorrect or inconsistent entries are prevented
+    * 👥 Overall usability of the dashboard is enhanced
+
+![1_Salary_Dashboard_Data_Validation](https://github.com/user-attachments/assets/d68b78b7-caac-4472-aec9-6098b0399780)
+
+## Conclusion
+Developing this dashboard has unveiled distinct insights into salary trends by analyzing job titles, locations, and required skill sets. It offers clarity to users, regardless of their familiarity with the data profession, by exploring how these factors influence compensation.
+
+### Final Thoughts
+Upon detailed examination, it's evident that data analysts typically possess four key skills: SQL, Excel, Tableau or Power BI, and Python. Notably, job descriptions often encompass skills from related roles, such as Data Engineers or Data Scientists, which may contribute to the elevated salaries observed for Data Analysts.
+
+For future analysis, isolating data analyst positions that specifically require these four core skills could provide a more accurate assessment of salary ranges, potentially yielding intriguing insights.
