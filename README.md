@@ -28,6 +28,7 @@ The dataset used for this project contains real-world data science job informati
  ### Charts
  
 📊 Data Science Job Salaries - Bar Chart
+
 ![1_Salary_Dashboard_Chart1](https://github.com/user-attachments/assets/e28db1e6-ea1b-4955-8ff3-f9069c3b0bb5)
 
 * 🛠️ Excel Features: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
@@ -36,6 +37,7 @@ The dataset used for this project contains real-world data science job informati
 * 💡 Insights Gained: This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
  
 🗺️ Country Median Salaries - Map Chart
+
 ![1_Salary_Dashboard_Country_Map](https://github.com/user-attachments/assets/c59c5f82-bca4-4aff-8a7f-6963620d712d)
 
 * 🛠️ Excel Features: Utilized Excel's map chart feature to plot median salaries globally.
@@ -65,8 +67,11 @@ IF(
 * 🔢 Formula Purpose: This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 Background Table
+
 ![1_Salary_Dashboard_Screenshot1](https://github.com/user-attachments/assets/44c60401-36d3-48c6-bfbe-99d6c859d07b)
+
 Dashboard Implementation
+
 ![1_Salary_Dashboard_Data_Validation](https://github.com/user-attachments/assets/b9c639f6-f47e-4486-9026-013768006a9e)
 
 ### Count of Job Schedule Type
