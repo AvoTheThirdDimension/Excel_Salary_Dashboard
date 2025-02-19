@@ -81,9 +81,12 @@ Dashboard Implementation
 * 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
 
 Background Table:
+
 ![1_Salary_Dashboard_Screenshot2](https://github.com/user-attachments/assets/0075345b-6032-466d-b483-08d47ec5cb71)
 
+
 DashBoard Implementation:
+
 ![1_Salary_Dashboard_Type](https://github.com/user-attachments/assets/b257dcf1-5df5-4475-9ae5-43ffbe25c840)
 
 ## Data Validation
