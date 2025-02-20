@@ -67,9 +67,13 @@ IF(
 * **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 **Background Table**
+
+
 ![1_Salary_Dashboard_Screenshot1](https://github.com/user-attachments/assets/44c60401-36d3-48c6-bfbe-99d6c859d07b)
 
 **Dashboard Implementation**
+
+
 ![1_Salary_Dashboard_Data_Validation](https://github.com/user-attachments/assets/b9c639f6-f47e-4486-9026-013768006a9e)
 
 ### Count of Job Schedule Type
@@ -80,10 +84,14 @@ IF(
 * **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
 **Background Table:**
+
+
 ![1_Salary_Dashboard_Screenshot2](https://github.com/user-attachments/assets/0075345b-6032-466d-b483-08d47ec5cb71)
 
 
 **Dashboard Implementation:**
+
+
 ![1_Salary_Dashboard_Type](https://github.com/user-attachments/assets/b257dcf1-5df5-4475-9ae5-43ffbe25c840)
 
 ## Data Validation
