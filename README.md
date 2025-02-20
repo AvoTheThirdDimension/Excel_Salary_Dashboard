@@ -4,7 +4,7 @@
 ## Introduction
 This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated.
 
-The data is from my, which provides a foundation for analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
+The data is from an excel course utilizing real-world data web scraped from job listing sites globally, which provides a foundation for analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
 
   ### Dashboard
  My final dashboard is in 1_Salary_Dashboard.xlsx.
@@ -99,6 +99,6 @@ IF(
 Developing this dashboard has unveiled distinct insights into salary trends by analyzing job titles, locations, and required skill sets. It offers clarity to users, regardless of their familiarity with the data profession, by exploring how these factors influence compensation.
 
 ### Final Thoughts
-Upon detailed examination, it's evident that data analysts typically possess four key skills: SQL, Excel, Tableau or Power BI, and Python. Notably, job descriptions often encompass skills from related roles, such as Data Engineers or Data Scientists, which may contribute to the elevated salaries observed for Data Analysts.
+Detailed examination shows that data analysts typically possess four key skills: SQL, Excel, Tableau or Power BI, and Python. Notably, job descriptions often encompass skills from related roles, such as Data Engineers or Data Scientists, which may contribute to the elevated salaries observed for Data Analysts.
 
-For future analysis, isolating data analyst positions that specifically require these four core skills could provide a more accurate assessment of salary ranges, potentially yielding intriguing insights.
+For future analysis, isolating data analyst positions requiring these four core skills could provide a more accurate assessment of salary ranges, potentially yielding intriguing insights.
