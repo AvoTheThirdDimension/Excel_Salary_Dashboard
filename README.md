@@ -7,7 +7,7 @@ This data jobs salary dashboard was created to help job seekers investigate sala
 The data is from an excel course utilizing real-world data web scraped from job listing sites globally, which provides a foundation for analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
 
   ### Dashboard
- My final dashboard is in 1_Salary_Dashboard.xlsx.
+ My final dashboard is in [1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx).
   
   ### Excel Skills Used
 The following Excel skills were utilized for analysis:
